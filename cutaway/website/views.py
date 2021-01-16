@@ -13,3 +13,12 @@ def trust(request):
 
 def contact(request):
     return render(request, 'website/contact.html', {'title': 'Contact Us'})
+
+def conceptualization(request):
+    return render(request, 'website/conceptualization.html', {'title': 'Conceptualization'})
+
+def creation(request):
+    return render(request, 'website/creation.html', {'title': 'Creation'})
+
+def delivery(request):
+    return render(request, 'website/delivery.html', {'title': 'Delivery'})

@@ -42,9 +42,29 @@ ul {
   border: #70bad4 1px solid;
   background-color: #70bad4;
   transition: all 0.3s ease-in;
+  font-weight: bold;
 }
 
 #contact.active {
+  color: #ffffff;
+  border: #70bad4 1px solid;
+  background-color: #70bad4;
+}
+
+.contact {
+  color: #70bad4;
+  border: #70bad4 1px solid;
+}
+
+.contact:hover {
+  color: #ffffff;
+  border: #70bad4 1px solid;
+  background-color: #70bad4;
+  transition: all 0.3s ease-in;
+  font-weight: bold;
+}
+
+.contact.active {
   color: #ffffff;
   border: #70bad4 1px solid;
   background-color: #70bad4;
